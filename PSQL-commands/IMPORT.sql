@@ -11,9 +11,3 @@
 \copy game_events from 'path\to\csv\game_events22-08.csv' DELIMITER ',' csv header;
 \copy club_games from 'path\to\csv\club_games22-08.csv' DELIMITER ',' csv header;
 \copy appearances from 'path\to\csv\appearances22-08.csv' DELIMITER ',' csv header;
-
---regular SQL statement
-insert into played (player_id, game_id)
-select p.player_id, g.game_id 
-from players p, games g
-where g.home_club_id = p.current_club_id or g.away_club_id = p.current_club_id;

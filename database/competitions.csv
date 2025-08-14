@@ -1,4 +1,4 @@
-competition_id,competition_code,name,sub_type,type,country_id,country_name,domestic_league_code,confederation,url,is_major_national_league
+competition_id,competition_code,competition_name,sub_type,type,country_id,country_name,domestic_league_code,confederation,url,is_major_national_league
 CIT,italy-cup,italy-cup,domestic_cup,domestic_cup,75,Italy,IT1,europa,https://www.transfermarkt.co.uk/italy-cup/startseite/wettbewerb/CIT,false
 NLSC,johan-cruijff-schaal,johan-cruijff-schaal,domestic_super_cup,other,122,Netherlands,NL1,europa,https://www.transfermarkt.co.uk/johan-cruijff-schaal/startseite/wettbewerb/NLSC,false
 GRP,kypello-elladas,kypello-elladas,domestic_cup,domestic_cup,56,Greece,GR1,europa,https://www.transfermarkt.co.uk/kypello-elladas/startseite/wettbewerb/GRP,false

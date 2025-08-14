@@ -11,4 +11,6 @@ How to use:
 - Navigate to your server -> Databases -> postgres -> Schemas -> public. Right click the public tab, and click CREATE Script
 - Copy and paste the SQL codes in DDLs.sql inside the PSQL-commands folder, and execute the script
 - Refresh the public tab (by right clicking) to confirm you have a Tables(9) tab
-- Following the instruction in 
+- Right click the Tables(9) tab, and open PSQL Tool
+- Following the instruction in IMPORT.sql, edit the path to the CSV files, then copy and paste the sql commands into the PSQL Tool
+- Once no errors are showing, run the project_CLI.py file
