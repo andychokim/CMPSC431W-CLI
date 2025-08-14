@@ -8,7 +8,7 @@ CREATE TABLE competitions (
     country_name VARCHAR(100),
     domestic_league_code VARCHAR(100),
     confederation VARCHAR(100),
-    url VARCHAR(100),
+    url VARCHAR(1000),
     is_major_national_league BOOLEAN
 );
 
@@ -29,7 +29,7 @@ CREATE TABLE clubs (
 	coach_name VARCHAR(30),
 	last_season VARCHAR(30),
 	filename VARCHAR(300),
-	url VARCHAR(300),
+	url VARCHAR(1000),
 	PRIMARY KEY (club_id)
 );
 
@@ -51,8 +51,8 @@ CREATE TABLE players (
 	height_in_cm numeric(30),
 	contract_expiration_date DATE,
 	agent_name VARCHAR(100),
-	image_url VARCHAR(300),
-	url VARCHAR(300),
+	image_url VARCHAR(1000),
+	url VARCHAR(1000),
 	current_club_domestic_competition_id VARCHAR(30) NOT NULL,
 	current_club_name VARCHAR(100),
 	market_value_in_eur numeric(50),
@@ -81,7 +81,7 @@ CREATE TABLE games (
 	stadium VARCHAR(100),
 	game_attendance INT,
 	referee VARCHAR(50),
-	url VARCHAR(200),
+	url VARCHAR(1000),
 	home_club_formation VARCHAR(50),
 	away_club_formation VARCHAR(50),
 	home_club_name VARCHAR(100),
