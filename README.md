@@ -7,4 +7,8 @@ It utilizes Python for connecting to the database and PostgreSQL for storing and
 How to use:
 - Install PostgreSQL if you do not have one installed
 - Clone this repository into your local directory
-- 
+- Using pgAdmin4, create a new PostgreSQL server with your hostname, password, and server name
+- Navigate to your server -> Databases -> postgres -> Schemas -> public. Right click the public tab, and click CREATE Script
+- Copy and paste the SQL codes in DDLs.sql inside the PSQL-commands folder, and execute the script
+- Refresh the public tab (by right clicking) to confirm you have a Tables(9) tab
+- Following the instruction in 
